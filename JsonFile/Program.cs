@@ -10,7 +10,7 @@ namespace JsonFile
 
             Rice ricedata = fetchJsonForRicw.ReadTheJsonFile("D:/Bridgelab Tests/repos/Practice_problems/JsonFile/JsonFile/new 1.json");
             Console.WriteLine(ricedata);
-            Console.WriteLine("|---------------------------Inventory management------------------------|");
+            Console.WriteLine("|--------------------------- ## Inventory management ##------------------------|");
             Console.WriteLine("|-----------------------------------------------------------------------|");
             Console.WriteLine("*******************Inventory For Rice***********************");
             for(int i=0;i< ricedata.typeOfRice.Count;i++)
